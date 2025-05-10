@@ -1,0 +1,486 @@
+/* Some Common css style */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainTitle{
+    font-size: 88px;
+    font-weight: bold;
+    color: red;
+}
+.titleOne{
+    font-size: 72px;
+}
+.titleTwo{
+    font-size: 64px;
+}
+.titleThree{
+    font-size: 48px;
+}
+.titleFour{
+    font-size: 24px;
+}
+span {
+    color: red;
+}
+.description{
+    font-size: 20px;
+    font-weight: 200;
+    color: #070211a2;
+    line-height: 32px;
+}
+
+
+/* banner part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+#banner{
+    width: 100%;
+}
+.bannerPart{
+    width: 1320px;
+    background: url(../assets/images/Banner\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.bannerPartOverlay{
+    width: 1320px;
+    background: rgba(0, 0, 0, 0.514);
+    border-radius: 15px;
+}
+.bannerPartOverlay h5{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 176px;
+    font-family: "Merriweather", serif;
+    padding-bottom: 16px;
+}
+.bannerPartOverlay h2{
+    font-size: 72px;
+    color: #fff;
+    font-weight: bolder;
+    padding-bottom: 176px;
+    font-family: "Merriweather", serif;
+    line-height: 95px;
+}
+/* banner part end */
+
+
+
+/* 65% OFF part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+.holyDayPart{
+    width: 806px;
+    height: 810px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+    text-transform: uppercase;
+}
+.holyDayPart h1{
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 48px;
+}
+.holyDayPart p{
+    color: #FF0000;
+    font-family: "Inter", sans-serif;
+    padding-bottom: 20px;
+}
+.holyDayPart h3{
+    color: #070211;
+    font-family: "Inter", sans-serif;
+}
+.holyDayPart img{
+    margin-top: 50px;
+    width: 803px;
+    height: 500px;
+}
+
+/* 65% OFF part end */
+
+
+
+/* midnight party part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+.midNightPart{
+    width: 1320px;
+    margin: 0 auto;
+    background: url(../assets/images/Vectorrr.png);
+    color: white;
+    height: 600px;
+    margin-top: 120px;
+}
+.midNightPatOverlay{
+    background: rgba(0, 0, 0, 0.514);
+    border-radius: 15px;
+    height: 600px;
+}
+.midNightPatOverlay h3{
+    font-family: "Merriweather", serif;
+    padding-left: 126px;
+    line-height: 88px;
+    letter-spacing: 8px;
+    padding-top: 126px;
+}
+.midNightPatOverlay p{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding-left: 126px;
+    line-height: 30px;
+    font-weight: 200;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.midNightPatOverlay a{
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif; 
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 48px;
+}
+
+/* midnight party part end */
+
+
+
+/* event time deteils part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+#eventSection{
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.eventPart{
+    text-align: center;
+    color: #070211;
+    height: 482px;
+    background: #ffe7e7;
+    border: 2px solid #070211;
+    border-radius: 16px;
+}
+.eventPart span{
+    color: red;
+}
+.eventPart p{
+    font-family: "Inter", sans-serif; 
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.eventPart a{
+    color: white;
+    padding: 16px 32px;
+    background: #FF0000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.eventPartTopaddingP{
+    padding-top: 110px;
+}
+.eventPartBottomPaddingP{
+    margin-bottom: 48px;
+}
+/* event time deteils end */
+
+
+
+/* banner part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+.newOfferPart{
+    width: 1320px;
+    margin: 120px auto;
+    display: flex;
+    height: 463px;
+    justify-content: space-between;
+    align-items: center;
+}
+.newOfferPartLeft p{
+    font-family: "Inter", sans-serif;
+}
+.newOfferPartLeft h4{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 22px;
+    color: #070211;
+}
+
+.newOfferPartMiddle{
+    width: 463px;
+    height: 463px;
+    border: 20px solid #FF0000;
+    display: flex;
+    border-radius: 50%;
+    position: relative;
+
+}
+.newOfferPartMiddle img{
+    width: 364px;
+    height: 364px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.newOfferPartRight p{
+    font-family: "Inter", sans-serif;
+}
+.newOfferPartRight h4{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 22px;
+    color: #070211;
+}
+.newOfferPartRight img{
+    margin-top: 43px;
+    width: 140px;
+    height: 140px;
+}
+/* banner part end */
+
+
+
+/* holyday sale part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+.holydaySalePartTop{
+    text-align: center;
+    color: #070211;
+}
+.holydaySalePartTop h5{
+    font-size: 24px;
+    font-weight: normal;
+    font-family: "Inter", sans-serif; 
+}
+.holydaySalePartTop h2{
+     font-family: "Merriweather", serif;
+     padding-top: 16px;
+     padding-bottom: 28px;
+}
+.holydaySalePartBottom{
+    width: 1320px;
+    height: 663px;
+    margin: 64px auto;
+    background: url(../assets/images/Rectangle\ 1.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+.holydaySalePartBottom img{
+    width: 1320px;
+    background-repeat: no-repeat;
+}
+/* holyday sale part end */
+
+
+
+/* portfolio part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+.portfolioPart{
+    width: 1320px;
+    margin: auto;
+}
+.portfolioPart h5{
+    font-family: "Inter", sans-serif;
+    font-weight: normal;
+}
+.portfolioPart h3{
+    padding-top: 16px;
+    padding-bottom: 22px;
+    font-family: "Inter", sans-serif;
+    color: #070211;
+}
+.portfolioPart p{
+    font-family: "Inter", sans-serif;
+}
+.portfolioPartImgPartTop{
+    display: flex;
+    width: 1320px;
+    margin: 24px auto;
+    gap: 24px;
+}
+.portfolioPartImgPartTopOne{
+    background: url(../assets/images/Rectangle\ 3.png);
+    width: calc(100% / 3);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioPartImgPartTopTwo{
+    background: url(../assets/images/Rectangle\ 4.png);
+    width: calc(100% / 3);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioPartImgPartTopThree{
+    background: url(../assets/images/Rectangle\ 5.png);
+    width: calc(100% / 3);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioPartImgPartBottom{
+    display: flex;
+    width: 1320px;
+    margin: auto;
+    gap: 24px;
+}
+.portfolioPartImgPartBottomOne{
+    background: url(../assets/images/Rectangle\ 6.png);
+    width: calc(100% / 3);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioPartImgPartBottomTwo{
+    background: url(../assets/images/Rectangle\ 7.png);
+    width: calc(100% / 3);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.portfolioPartImgPartBottomThree{
+    background: url(../assets/images/Rectangle\ 8.png);
+    width: calc(100% / 3);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* portfolio part end */
+
+
+
+/* portfolio part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+.subscibePart{
+    text-align: center;
+    width: 1320px;
+    margin: auto;
+    margin-top: 200px;
+    background: #fff2ff;
+    height: 616px;
+    border-radius: 16px;
+}
+.subscibePart img{
+    width: 150px;
+    height: 150px;
+}
+.subscibePart h3{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.subscibePart p{
+    padding-bottom: 48px;
+}
+.emailField input{
+    padding-left: 30px;
+    padding-right: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: none;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #070211a2;
+    border-radius: 50px 0 0 50px;
+}
+.btn-submit input{
+    font-size: 20px;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    border: none;
+    padding: 24px 56px;
+    background: #FF0000;
+    border-radius: 0 50px 50px 0;
+    margin-left: -5px;
+}
+/* portfolio part end */
+
+
+
+/* footer part start */
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Merriweather", serif; */
+.footerPart{
+    width: 100%;
+    background: #070211;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+.footerPartTopLeft p{
+    line-height: 40px;
+    font-size: 24px;
+}
+.footerPartTop {
+    width: 1185px;
+    display: flex;
+    margin: auto;
+    height: 246px;
+    justify-content: space-between;
+    align-items: center;
+}
+.callIcon{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+.websiteIcon{
+    display: flex;
+    gap: 16px;
+}
+.footerPartTopRightFlexPart img{
+    width: 24px;height: 24px;
+}
+.footerPartMiddle{
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    height: 160px;
+    border-top: 2px solid #ffffff36;
+    border-bottom: 2px solid #ffffff36;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.footerLogo img{
+    width: 64px;
+    height: 64px;
+}
+.footerPartTopRight p{
+    font-size: 24px;
+}
+.footerPartBottom{
+    width: 1185px;
+    margin: auto;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* footer part end */
